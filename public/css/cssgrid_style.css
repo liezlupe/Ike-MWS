@@ -36,8 +36,19 @@
 }
 .footer {
 	background: #FF00FF;
-	grid-column: 1/5;
-	grid-row: 5/5;
+	grid-column:1/5;
+	grid-row: 5;
+	padding-top: 0px;
+	width: 100%;	
 	text-align: center;
-	padding-top: 5px;
+}
+.footer a img{		
+	padding: 2px;
+	width: 23px;
+	height:23px;
+	border-radius: 100%;
+
+}
+.footer b{
+	padding-bottom: 3px;
 }
