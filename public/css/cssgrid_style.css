@@ -1,0 +1,43 @@
+.container {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 50px 100px 100px 100px 30px;
+	grid-gap: 4px;
+}
+
+.menu {
+	background: #FF00FF;
+	grid-column-start: 1;
+	grid-column-end: 5;	
+}
+.menu img {
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.sidebar {
+	background: lightyellow;
+	grid-row: 2/4;
+    display: grid;
+}
+.sidebar img{
+	max-width: 100%;
+    max-height: 100%;
+    margin: auto;    
+    border-radius: 18%;
+    margin-top: 50px;
+}
+.konten {
+	background: pink;
+	grid-column: 2/5;
+	text-align: center;
+	text-align-last: center;
+  
+}
+.footer {
+	background: #FF00FF;
+	grid-column: 1/5;
+	grid-row: 5/5;
+	text-align: center;
+	padding-top: 5px;
+}
