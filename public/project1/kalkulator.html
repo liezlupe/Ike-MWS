@@ -1,0 +1,46 @@
+<html>  
+<head>
+    <meta charset='UTF-8'>
+        <title>
+            CSS Grid Responsive
+        </title>
+    <link href="cal.css" rel="stylesheet"> 
+</head>
+
+<body>
+
+<div class="container_css">
+	<div class="menu_cal"><h3><b>Kalkulator penjumlahan dua angka</b></h3></div>
+    <form action="#">
+        <div class="konten"><input type="text" id="text1"  onkeyup="sum();" /></div>
+            <div class="konten"> + </div>
+            <div class="konten"><input type="text" id="text2"  onkeyup="sum();" /></div>
+            <div class="konten">=</div>
+            <div class="konten"><input type="text" id="text3" /></div>
+            <div class="konten"><button type="reset"  id="text3" >reset</button></div>
+        </div>
+    </form>
+
+	
+	<div class="footer">
+		<b>Ike Listiani</b>
+	</div>
+</div> 
+
+</body>
+
+</html>
+<script>
+        function sum() {
+            var txtFirstNumberValue = document.getElementById('text1').value;
+            var txtSecondNumberValue = document.getElementById('text2').value;
+            var result = parseInt(txtFirstNumberValue) + parseInt(txtSecondNumberValue);
+            if (!isNaN(result)) {
+            document.getElementById('text3').value = result;
+            }
+        }
+</script>
+
+<style>
+
+</style>
