@@ -1,0 +1,34 @@
+{
+    "places": [
+        {
+            "location": [-6.2306514,106.7880762],
+            "title": "Cat Cabin",
+            "gambar": "../project3/images/catcabin.jpg",
+            "review": "Cafe yang terdapat banyak kucing, dengan berbagai jenis kucing serta tempat yang nyaman untuk relax"
+          },
+      {
+        "location": [-6.386837,106.826542],
+        "title": "Depok Mall Beji ",
+        "gambar": "../project3//images/dmall.png",
+        "review": "D Mall, Jl. Margonda Raya, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16423"
+      },
+      {
+        "location": [-6.373172,106.834501],
+        "title": "mujigae Margonda",
+        "gambar": "../project3/images/mujigae.jpg",
+        "review": "Jl. Margonda Raya No.358, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16424"
+      },      
+      {
+        "location": [-6.369351,106.834703],
+        "title": "Shirokuma Margocity",
+        "gambar": "../project3/images/shirokuma.jpg",
+        "review": "Kafe ice cream matcha terfavorit"
+      },
+      {
+        "location": [-6.2002243,106.8496781],
+        "title": "Angkringan Kombi, Rawangun",
+        "gambar": "../project3/images/kombi.jpg",
+        "review": "Tempat nongrong murah meriah dengan suasana yang adem karena dekat dengan pohon yang rindang, dan buka setiap jam 8 malam hingga jam 12 malam."
+      }
+    ]
+  }

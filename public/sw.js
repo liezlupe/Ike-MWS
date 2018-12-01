@@ -23,6 +23,11 @@ self.addEventListener('install', event => {
                 'project2/maps.css',
                 'project2/maps.js',
 
+                 // project2 maps
+                 'project3/index.html',
+                 'project3/maps.css',
+                 'project3/maps.js',
+
                 // images
                 'images/offline_img.png',
 
@@ -51,9 +56,9 @@ self.addEventListener('fetch', event => {
             if (event.request.url.includes('.png')) {
                 return caches.match('/images/offline_img.png');
             }
-            return new Response('Not connected to the internet', {
+            return new Response('Yah koneksi putus :(', {
                 status: 404,
-                statusText: "Not connected to the internet"
+                statusText: "Yah koneksi putus :("
             });
         })
     );
